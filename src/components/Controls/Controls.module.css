@@ -1,0 +1,86 @@
+.controls {
+    padding: 1rem 1.5rem;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .searchFilterGroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .searchInput {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    flex: 1 1 200px;
+    min-width: 200px;
+    padding: 0.5rem;
+  }
+  
+  .dropdown {
+    padding: 0.5rem;
+    font-size: 0.95rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #333;
+    min-width: 120px;
+    cursor: pointer;
+  }
+  
+  .timeFilters {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .timeBtn {
+    background: #f3f4f6;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #333;
+  }
+  
+  .timeBtn:hover {
+    background: #e5e7eb;
+  }
+  
+  .active {
+    background-color: #d1fae5;
+    color: green;
+    font-weight: 600;
+  }
+  
+  /* Mobile responsiveness */
+  @media screen and (max-width: 768px) {
+    .searchFilterGroup {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .searchInput,
+    .dropdown {
+      width: 100%;
+    }
+  
+    .timeFilters {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .timeFilters {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  

@@ -1,0 +1,243 @@
+.sidebar {
+    background: #111;
+    padding: 1.5rem;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 350px;
+    margin-top: 2rem;
+  }
+  
+  .card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #f9cb80;
+  }
+  
+  .totalValue {
+    margin-bottom: 1.5rem;
+    background-color: #1d1d1f;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .totalValue span {
+    color: #aaa;
+    font-size: 0.85rem;
+  }
+  
+  .totalValue h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 0.25rem;
+    color: #fff;
+  }
+  
+  .assets {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem;
+  }
+  
+  .assets li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #2c2c2f;
+  }
+  
+  .coinInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .coinInfo strong {
+    font-size: 0.95rem;
+    color: #fff;
+  }
+  
+  .coinInfo span {
+    font-size: 0.8rem;
+    color: #bbb;
+  }
+  
+  .coinValue {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  
+  .coinValue strong {
+    font-size: 0.95rem;
+  }
+  
+  .coinValue span {
+    font-size: 0.8rem;
+  }
+  
+  .green {
+    color: #0f0;
+  }
+  
+  .red {
+    color: #f66;
+  }
+  
+  .addBtn {
+    background-color: #f9cb80;
+    color: #111;
+    font-weight: bold;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .addBtn:hover {
+    background-color: #e2b464;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+  }
+  
+  .modalContent {
+    background: #222;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    color: #fff;
+  }
+  
+  .modalContent h3 {
+    margin-bottom: 1rem;
+    color: #f9cb80;
+  }
+  
+  .modalContent select,
+  .modalContent input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.75rem;
+    background: #333;
+    border: 1px solid #444;
+    color: #fff;
+    border-radius: 6px;
+  }
+  
+  .modalActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .modalActions button {
+    flex: 1;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .modalActions button:first-child {
+    background: #f9cb80;
+    color: #111;
+    margin-right: 0.5rem;
+  }
+  
+  .modalActions button:last-child {
+    background: #444;
+    color: #fff;
+  }
+  .portfolioPanel {
+    background-color: #fff;
+    padding: 1rem;
+    width: 320px;
+    border-left: 1px solid #ddd;
+    height: 100vh;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+  }
+  
+  .portfolioPanel h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .assetList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .assetItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .assetInfo span {
+    display: block;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .assetValue span {
+    font-size: 0.9rem;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .totalValue {
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .addBtn {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.6rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  .portfolioPanel {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .portfolioPanel {
+      width: 320px;
+      max-width: 320px;
+    }
+  }
+  

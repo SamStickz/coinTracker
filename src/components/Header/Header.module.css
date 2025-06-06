@@ -1,0 +1,58 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .logo img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .logo span {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .refreshBtn {
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 0.95rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: color 0.2s;
+  }
+  
+  .refreshBtn:hover {
+    color: #000;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .topbar {
+      padding: 0.75rem;
+    }
+  
+    .logo span {
+      font-size: 0.9rem;
+    }
+  
+    .refreshBtn {
+      font-size: 0.85rem;
+    }
+  }
+  
