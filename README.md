@@ -55,5 +55,5 @@ cd cointracker
 If you liked this project or want to collaborate:
 
 - ✉️ Email: Sadeleye437@gmail.com  
-- 🌐 Portfolio: [craftedbysam.vercel.app](https://craftedbysam.vercel.app)  
+- 🌐 Portfolio: [craftedbysam.vercel.app](https://coinwebtracker.vercel.app)  
 - 💼 LinkedIn: [linkedin.com/in/samuel-adeleye-0b25b9241](https://www.linkedin.com/in/samuel-adeleye-0b25b9241/)
